@@ -16,7 +16,7 @@ axis square
 scatter(pre_incon,peri_incon,'filled','MarkerFaceAlpha',.5,'MarkerEdgeAlpha',.5)
 axis square
 axis([10 45 10 45])
-legend('congruent','incongruent')
+legend('same as saccade direction','opposite to saccade direction')
 
 %% run decoder for every neuron
 time = -700:7:700;
