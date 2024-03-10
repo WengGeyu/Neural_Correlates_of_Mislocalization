@@ -40,9 +40,6 @@ hold off
 sgtitle('d < 11')
 
 figure
-tstim1 = 30:87;
-tstim2 = 101:107;
-tstim3 = 110:134;
 subplot(3,2,1)
 niceplot3(1:200,squeeze(nanmean(response_far_fix(:,1,[1 2 3],:),3)),15,250/255,172/255,92/255);
 hold on
